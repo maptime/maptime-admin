@@ -1,6 +1,6 @@
 Tutorials!:
 
-OMG I'M ALL UP IN THE README!
+OMG I'M ALL UP IN THE TUTORIAL!
 
 WEB BASED MAPS:
 Mapbox's Tilemill:
