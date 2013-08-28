@@ -21,7 +21,10 @@ D3:
 		-https://github.com/mbostock/d3/wiki/Tutorials
 
 Google Fusion Tables:
-	By Alan McConchie: http://mappingmashups.net/2012/11/29/mapping-with-google-fusion-tables/		
+	By Alan McConchie: http://mappingmashups.net/2012/11/29/mapping-with-google-fusion-tables/
+	
+All of the above:
+	-GIS Collective (D3, Leaflet, WMS, etc): http://giscollective.org/tutorials/
 
 TRADITIONAL MAPPING:
 
