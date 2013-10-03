@@ -1,7 +1,5 @@
 Tutorials!:
 
-OMG I'M ALL UP IN THE TUTORIAL!
-
 WEB BASED MAPS:
 Mapbox's Tilemill:
 	-http://www.mapbox.com/tilemill/docs/crashcourse/introduction/
