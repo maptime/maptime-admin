@@ -7,6 +7,12 @@ Resources
 
 ### Web Mapping
 
+General information
+
+- [Mapschool.io](http://mapschool.io/)
+- [Comparing Map Projections](http://bl.ocks.org/syntagmatic/3711245)
+- [Charlie Lloyd's GIS advice](https://gist.github.com/celoyd/7966247)
+
 Tilemill
 
 - [Tilemill Crash Course](http://www.mapbox.com/tilemill/docs/crashcourse/introduction/)
@@ -15,6 +21,14 @@ Tilemill
 Leaflet.js
 
 - [Leaflet examples](http://leafletjs.com/examples.html)
+
+GeoJSON
+
+- [Learn GeoJSON](https://github.com/lyzidiamond/learn-geojson)
+
+Workflow
+
+- [osgeo4mac](https://github.com/dakcarto/homebrew-osgeo4mac)
 	
 
 D3:
