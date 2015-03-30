@@ -1,6 +1,6 @@
-maptime
+maptime-admin
 =======
 
-- See the [Issues](https://github.com/maptime/maptime/issues) for organizational discussion
-- Chat on [Slack](https://maptime.slack.com/messages/general/) - request an invite
-- and IRC at [http://webchat.freenode.net/](http://webchat.freenode.net/) on the #maptime channel (less active than Slack)
+Question? Comment? Anything that doesn't have to do with the website? Open an [issue](https://github.com/maptime/maptime-admin/issues) on this repo.
+
+Want to start a Maptime chapter? Email us: **hello@maptime.io**.
