@@ -13,6 +13,7 @@ This repo is for public documents pertaining to managing the Maptime organizatio
 ## Important Links
 
 * [Maptime Google Docs folder](https://drive.google.com/drive/u/0/folders/0B-QWxIF3d0tlZ2ZpWEpZSUlOT28)
+* [Onboarding Checklist]()
 
 Question? Comment? Anything that doesn't have to do with the [Maptime website](https://github.com/maptime/maptime.github.io)? Open an [issue](https://github.com/maptime/maptime-admin/issues) on this repo.
 
