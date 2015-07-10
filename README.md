@@ -6,7 +6,7 @@ This repo is for public documents pertaining to managing the Maptime organizatio
 
 ## Useful Docs
 
-* [Draft Bylaws (Google Doc)](https://docs.google.com/document/d/1jEzrPYctf6_arAM-kkRY6umaDu_KJOefJO8DyKWT1G0/edit)
+* [Bylaws, v1.0.0 adopted July 9, 2015 (Google Doc)](https://docs.google.com/document/d/1jEzrPYctf6_arAM-kkRY6umaDu_KJOefJO8DyKWT1G0/edit)
 * Organizational Structure
 * HQ + Board Roles
 * [Sponsorship + Patronage](https://gist.github.com/bethschechter/3bb500b70a005f3cfd48)
