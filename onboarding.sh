@@ -7,10 +7,13 @@
 # saved in an environment variable named GH_TOKEN
 # Requires jq for json parsing.  See: http://stedolan.github.io/jq/download/ 
 
-echo -n "Enter the Maptime chapter repo name: "
+echo "Repo name. Enter the Maptime chapter repo name (e.g. portland). Make sure it doesn't conflict with existing repos and is all lowercase:"
 read chapter
 
-echo -n "Enter the admin username: "
+echo "Admin team. Enter the abbreviations for country and/or state/province (e.g. us-ny for USA, New York): "
+read team
+
+echo "Enter the admin GitHub username: "
 read admin
 
 curl -H "Content-Type: application/json" \
@@ -25,7 +28,7 @@ git push local gh-pages
 
 id=$(curl -H "Content-Type: application/json" \
 	-u ${GH_TOKEN}:x-oauth-basic https://api.github.com/orgs/maptime/teams \
-	-d "{\"name\":\"us-${chapter}-admin\",\"permission\":\"admin\",\"repo_names\":[\"maptime/${chapter}\"]}" \
+	-d "{\"name\":\"${team}\",\"permission\":\"admin\",\"repo_names\":[\"maptime/${chapter}\"]}" \
 	| jq -r '.id')
 
 curl -u ${GH_TOKEN}:x-oauth-basic -X PUT https://api.github.com/teams/${id}/memberships/${admin}
