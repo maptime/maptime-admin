@@ -28,7 +28,7 @@ git push local gh-pages
 
 id=$(curl -H "Content-Type: application/json" \
 	-u ${GH_TOKEN}:x-oauth-basic https://api.github.com/orgs/maptime/teams \
-	-d "{\"name\":\"${team}\",\"permission\":\"admin\",\"repo_names\":[\"maptime/${chapter}\"]}" \
+	-d "{\"name\":\"${team}\",\"permission\":\"push\",\"repo_names\":[\"maptime/${chapter}\"]}" \
 	| jq -r '.id')
 
 curl -u ${GH_TOKEN}:x-oauth-basic -X PUT https://api.github.com/teams/${id}/memberships/${admin}
