@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh -e
 # ------------------------------------------------------------------------------------------------------ 
 # onboarding - Maptime onboarding tool
 # 
@@ -6,6 +6,21 @@
 # Before running, user must have a Github personal access token
 # saved in an environment variable named GH_TOKEN
 # Requires jq for json parsing.  See: http://stedolan.github.io/jq/download/ 
+
+abort()
+{
+    echo >&2 '
+***************
+*** ABORTED ***
+***************
+'
+    echo "An error occurred. Exiting..." >&2
+    exit 1
+}
+
+trap 'abort' 0
+
+set -e
 
 echo "Repo name. Enter the Maptime chapter repo name (e.g. portland). Make sure it doesn't conflict with existing repos and is all lowercase:"
 read chapter
@@ -32,3 +47,7 @@ id=$(curl -H "Content-Type: application/json" \
 	| jq -r '.id')
 
 curl -u ${GH_TOKEN}:x-oauth-basic -X PUT https://api.github.com/teams/${id}/memberships/${admin}
+
+trap : 0
+
+echo >&2
