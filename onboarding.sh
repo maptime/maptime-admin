@@ -50,4 +50,8 @@ curl -u ${GH_TOKEN}:x-oauth-basic -X PUT https://api.github.com/teams/${id}/memb
 
 trap : 0
 
-echo >&2
+echo >&2 '
+************
+*** DONE *** 
+************
+'
